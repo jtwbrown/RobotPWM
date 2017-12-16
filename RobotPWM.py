@@ -89,7 +89,13 @@ Right()
 time.sleep(0.5) 
  
 Backwards() 
-time.sleep(1) 
+time.sleep(1)
+
+Left()
+time.sleep(0.5)
+
+Backwards()
+time.sleep(1)
  
 StopMotors() 
  
