@@ -78,6 +78,8 @@ def Left():
 
 Forwards() 
 time.sleep(1) # Pause for 1 second 
+StopMotors() 
+time.sleep(0.1) 
  
 Left() 
 time.sleep(0.77) # Pause for half a second 
