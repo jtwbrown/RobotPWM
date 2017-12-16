@@ -78,11 +78,13 @@ def Left():
 
 Forwards() 
 time.sleep(1) # Pause for 1 second 
+
 StopMotors() 
 time.sleep(0.1) 
  
 Left() 
-time.sleep(0.77) # Pause for half a second 
+time.sleep(0.79) # Pause for half a second 
+
 StopMotors() 
 time.sleep(0.1)
  
@@ -94,7 +96,7 @@ StopMotors()
 time.sleep(0.1)
  
 Right() 
-time.sleep(0.77) 
+time.sleep(0.79) 
 
 StopMotors() 
 time.sleep(0.1)
@@ -106,7 +108,7 @@ StopMotors()
 time.sleep(0.1)
 
 Left()
-time.sleep(0.77)
+time.sleep(0.79)
 
 StopMotors() 
 time.sleep(0.1)
@@ -118,7 +120,7 @@ StopMotors()
 time.sleep(0.1)
 
 Right()
-time.sleep(0.77)
+time.sleep(0.79)
  
 StopMotors() 
  
