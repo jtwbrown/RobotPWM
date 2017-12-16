@@ -61,14 +61,14 @@ def Backwards():
  pwmMotorBBackwards.ChangeDutyCycle(DutyCycle) 
  
 # Turn left 
-def Left():     
+def Right():     
  pwmMotorAForwards.ChangeDutyCycle(Stop)     
  pwmMotorABackwards.ChangeDutyCycle(DutyCycle)     
  pwmMotorBForwards.ChangeDutyCycle(DutyCycle)     
  pwmMotorBBackwards.ChangeDutyCycle(Stop) 
  
 # Turn Right 
-def Right():     
+def Left():     
  pwmMotorAForwards.ChangeDutyCycle(DutyCycle)     
  pwmMotorABackwards.ChangeDutyCycle(Stop)     
  pwmMotorBForwards.ChangeDutyCycle(Stop)     
