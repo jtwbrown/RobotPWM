@@ -80,25 +80,25 @@ Forwards()
 time.sleep(1) # Pause for 1 second 
  
 Left() 
-time.sleep(0.5) # Pause for half a second 
+time.sleep(0.7) # Pause for half a second 
  
 Forwards() 
 time.sleep(1) 
  
 Right() 
-time.sleep(0.5) 
+time.sleep(0.7) 
  
 Backwards() 
 time.sleep(1)
 
 Left()
-time.sleep(0.5)
+time.sleep(0.7)
 
 Backwards()
 time.sleep(1)
 
 Right()
-time.sleep(0.5)
+time.sleep(0.7)
  
 StopMotors() 
  
