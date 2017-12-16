@@ -96,6 +96,9 @@ time.sleep(0.5)
 
 Backwards()
 time.sleep(1)
+
+Right()
+time.sleep(0.5)
  
 StopMotors() 
  
